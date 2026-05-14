@@ -22,7 +22,7 @@ Route::get('/about', function () {
 });
 
 Route::get('/', function () {
-    return '🏠 Home - Praktikum Laravel 11';
+    return ' Home - Praktikum Laravel 11';
 });
 
 //route dengan parameter
@@ -32,9 +32,9 @@ Route::get('/user/{name}', function ($name) {
 });
 
 Route::get('/angkatan/{tahun}', function ($tahun) {
-    return "📅 Angkatan: $tahun - Fakultas Teknologi Informasi";
+    return " Angkatan: $tahun - Fakultas Teknologi Informasi";
 });
 
 Route::get('/kategori/{jenis}', function ($jenis) {
-    return "📦 Kategori Produk: $jenis";
+    return " Kategori Produk: $jenis";
 });
