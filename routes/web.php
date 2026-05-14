@@ -18,17 +18,17 @@ Route::get('/user/{nama}', function ($nama) {
 //route tanpa parameter
 
 Route::get('/about', function () {
-    return 'About - Belajar Routing Laravel';
+    return 'Hari ini belajar Routing Laravel';
 });
 
 Route::get('/', function () {
-    return ' Home - Praktikum Laravel 11';
+    return 'Kemarin bantul mengalami panas yang sangat terik';
 });
 
 //route dengan parameter
 
 Route::get('/user/{name}', function ($name) {
-    return "Selamat datang, $name 👋";
+    return "Selamat datang, $name ";
 });
 
 Route::get('/angkatan/{tahun}', function ($tahun) {
